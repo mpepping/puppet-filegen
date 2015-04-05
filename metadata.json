@@ -1,0 +1,14 @@
+{
+  "name": "puppet-filegen",
+  "version": "0.1.0",
+  "author": "martijn",
+  "summary": "Function to generate files on the Puppet (master) instance.",
+  "license": "Apache 2.0",
+  "source": "",
+  "project_page": "http://xbsd.nl/",
+  "issues_url": "http://xbsd.nl/",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
