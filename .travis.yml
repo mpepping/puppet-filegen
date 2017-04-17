@@ -1,7 +1,6 @@
-rvm: 1.9.3
+rvm: 2.4.0
 env:
-- PUPPET_GEM_VERSION=3.6
-- PUPPET_GEM_VERSION=3.7
+- PUPPET_GEM_VERSION=4.8.2
 after_script: "bundle exec rake build"
 before_deploy: "puppet module build"
 deploy:
